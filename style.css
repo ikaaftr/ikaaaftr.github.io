@@ -1,0 +1,297 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #5a5a5a;
+}
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  height: 32rem;
+}
+.navbar {
+    padding: 0;
+  }
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  .navbar li {
+    position: relative;
+  }
+  .navbar > ul > li {
+    margin-left: 5px;
+  }
+  .navbar a, .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px 24px 15px;
+    font-size: 14px;
+    color: #fff;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+  .navbar a i, .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+  .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+    background: #3acc16;
+  }
+
+  .about h3 {
+    font-weight: 400;
+    font-size: 26px;
+  }
+  .about ul {
+    list-style: none;
+    padding: 0;
+  }
+  .about ul li {
+    padding-bottom: 10px;
+  }
+  .about ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #68A4C4;
+  }
+  .about p:last-child {
+    margin-bottom: 0;
+  }
+  .nct{
+    background-color: #5d6d5d;
+  }
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: 0.7;
+    color: #0d700d;
+}
+.nctiw{
+    color: #495549;
+}
+p{
+    font-size: 16px;
+}
+.marginb {
+    margin-bottom: 45px;
+}
+.margina {
+    margin-top: 45px;
+}
+.bg-1 { 
+    background-color: #a9a9a9; /* Green */
+    color: #ffffff;
+}
+.bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+  #footer {
+    background: #242729;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+  }
+  #footer {
+    background: #32373a;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+  }
+  #footer .footer-top {
+    background: #313435;
+    border-top: 1px solid #0c1d25;
+    border-bottom: 1px solid #131414;
+    padding: 60px 0 30px 0;
+  }
+  #footer .footer-top .footer-info {
+    margin-bottom: 30px;
+  }
+  #footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #424647;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  .contact {
+    padding-bottom: 30px;
+  }
+  .contact .info-box {
+    color: #444;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 20px 0 30px 0;
+    margin-bottom: 30px;
+  }
+  .contact .info-box i {
+    font-size: 32px;
+    color: #4c504b;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #000000;
+  }
+  .contact .info-box h3 {
+    font-size: 20px;
+    color: #666;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  .contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .contact .php-email-form {
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  .contact .php-email-form .error-message br + br {
+    margin-top: 25px;
+  }
+  .contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  .contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  .contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+    background-color: #101111;
+  }
+  .contact .php-email-form input {
+    padding: 10px 15px;
+  }
+  .contact .php-email-form textarea {
+    padding: 12px 15px;
+  }
+  .contact .php-email-form button[type=submit] {
+    background: #52c031;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+  }
+  .contact .php-email-form button[type=submit]:hover {
+    background: #49a320;
+  }
+  #footer .footer-top .social-links a:hover {
+    background: #000000;
+    color: #fff;
+    text-decoration: none;
+  }
+  #footer .footer-top h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #aae3a2;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  #footer .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #2c2c2c;
+    font-size: 18px;
+    line-height: 1;
+  }
+  #footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  #footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  #footer .footer-top .footer-links ul a {
+    color: #fff;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+  }
+  #footer .footer-top .footer-links ul a:hover {
+    color: #515353;
+  }
+  #footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+  }
+  #footer .footer-top .footer-contact p {
+    line-height: 26px;
+  }
+  #footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+ 
